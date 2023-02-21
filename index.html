@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link id="" rel="stylesheet" type="text/css" href="default.css"/>
+    <link id="theme-style" rel="stylesheet" type="text/css" href=""/>
+
+
+</head>
+<body>
+    <section class="s1">
+        <!--section is decreasing the font-size of h tags 
+        and not covering the whole background on the top-->
+        <div class="main-container">
+            <div class="greeting-wrapper">
+                <h1>Hi, I'm Nadeem Choudhary</h1>
+            </div>
+            <div class="intro-wrapper">
+                <div class="nav-wrapper">
+                    <div class="dots-wrapper">
+                        <div id="dot-1" class="browser-dot"></div>
+                        <div id="dot-2" class="browser-dot"></div>
+                        <div id="dot-3" class="browser-dot"></div>
+                    </div>
+                    <button id="navigation" onclick="scrollToForm()" style="background-color: transparent; cursor: pointer; border: none;">
+                        <li>Contact</li> 
+                    </button>
+                </div>
+                <div class="left-column">
+                    <img src="images/myProfile.jpg" alt="profile-pic" id="profile-pic" />
+                    <h5 id="title">Personalize Theme</h5>
+                    <div class="theme-options-wrapper">
+                        <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                        <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                        <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                        <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+                    </div>
+                    <p id="settings-node">*Theme settings will be saved for <br/>your next visit</p>
+                </div>
+                <div class="right-column">
+                    <div id="preview-shadow">
+                        <div id="preview">
+                            <div id="corner-tl" class="corner"></div>
+                            <div id="corner-tr" class="corner"></div>
+                            <h3>What I Do</h3>
+                            <p>I am just a normal developer who writes amazing code.</p>
+                            <div id="corner-bl" class="corner"></div>
+                            <div id="corner-br" class="corner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+    <section class="s2">
+        <div class="main-container">
+            <div class="about-wrapper">
+                <div class="about-me">
+                    <h4>More about me</h4>
+                    <p>I build new projects just to tickle my brain and love teaching others how they're made.
+                        While I keep busy teaching courses, I still take interviews in search of a great team & projects that interest me.</p>
+                    <hr/>
+                    <h4>TOP EXPERTISE</h4>
+                    <p>Full stack developer with primary focus on mern stack: <a target="_blank" rel="noopener noreferrer" href="">Download Resume</a></p>
+                    <div id="skills">
+                        <ul>
+                            <li>HTML/CSS</li>
+                            <li>Javasript</li>
+                            <li>React</li>
+                            <li>Nodejs</li>
+                            <li>MongoDB</li>
+                        </ul>
+                        <ul>
+                            <li>MERN</li>
+                            <li>Python</li>
+                            <li>SQL</li>
+                            <li>Flutter</li>
+                            <li>Firebase</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="social-link-wrapper">
+                    <h4 id="title">Find me on social media</h4>
+                    <ul class="social-links"> 
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/nadeemchoudhary/" class="social-link-item" id="linkedin"><i class="fab fa-linkedin social-link-icon"></i></a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://instagram.com/n_a_d_e_e_m_9_9" class="social-link-item" id="instagram"><i class="fab fa-instagram social-link-icon"></i></a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/n_a_d_e_e_m_9_9" class="social-link-item" id="twitter"><i class="fab fa-twitter social-link-icon"></i></a></li> 
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/nadeem099" class="social-link-item" id="github"><i class="fab fa-github social-link-icon"></i></a></li> 
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <section class="s1">
+        <div class="main-container">
+            <div class="projects-wrapper">
+                <h4 id="proj-wrapper-title">Some of my projects</h4>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="images/node.jpg" alt="img" class="card-img"/>
+                        <div class="proj-info">
+                            <div>
+                                <h5 id="proj-title">Zoom Clone</h5>
+                                <p>Built a zoom clone using nodejs, socket.io and peerjs</p>
+                                <a target="_blank" rel="noopener noreferrer" href="https://github.com/nadeem099/zoom-clone">Find project</a>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="card">
+                        <img src="images/reactDjangoProj.jpg" alt="img" class="card-img"/>
+                        <div class="proj-info">
+                            <div>
+                                <h5 id="proj-title">Ecommerce webapp</h5>
+                                <p>Designed and built an Ecommerce webapp for t-shirt selling.</p>
+                                <a target="_blank" rel="noopener noreferrer" href="https://github.com/nadeem099/ECommerce-front-end">Find front-end</a><br>
+                                <a target="_blank" rel="noopener noreferrer" href="https://github.com/nadeem099/ECommerce-back-end">Find back-end</a>
+                            </div>
+                        </div>
+                    </div>  
+                <div class="card">
+                    <img src="images/flutterfire.jpg" alt="img" class="card-img"/>
+                    <div class="proj-info">
+                        <div>
+                            <h5 id="proj-title">Instagram Clone</h5>
+                            <p>Designed and built Instagram clone using flutter and firebase.</p>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/nadeem099/instagram-clone">Find project</a>
+                        </div>
+                    </div>
+                </div>  
+                <div class="card">
+                    <img src="images/mlProj.jpg" alt="img" class="card-img"/>
+                    <div class="proj-info">
+                        <div>
+                            <h5 id="proj-title">ML based Forecasting System</h5>
+                            <p>Designed built and deployed a ML based Rainfall Forecasting system</p>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/nadeem099/Rainfall-Prediction">Find project</a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>   
+    
+    <section class="s2 ">
+        <div class="main-container">
+            <div class="contact-wrapper">
+                <h4 class="form-title">Get In Touch</h4>
+                <form action="" class="form-wrapper" method="get">
+                    <label for="name">Name</label><br/>
+                    <input type="text" name="name" id="name" class="input-field"/><br/>
+                    <label for="subject">Subject</label><br/>
+                    <input type="text" name="subject" id="subject" class="input-field"/><br/>
+                    <label for="email">Email</label><br/>
+                    <input type="text" name="email" id="email" class="input-field"/><br/>
+                    <label for="message">Message</label><br/>
+                    <textarea name="message" id="message" cols="30" rows="10" class="input-field"></textarea><br/>
+                    <button type="submit" id="send" onclick="sendEmail()">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
